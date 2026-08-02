@@ -1,4 +1,16 @@
 aid: tapulous
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tapulous.png
 name: Tapulous
 description: Tapulous is a company surfaced as a portfolio company of uncork-capital and added to the
   API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 apis: []
@@ -20,3 +32,14 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-surface: none
+x-surface-note: 'tapulous.com is a defunct/defensively-parked domain (Tapulous, maker
+  of Tap Tap Revenge, acquired by Disney in 2010). Probed 2026-07-21: no A record on
+  apex/www/api/developer, NS+MX on CSC corporate registrar (cscdns.net), SPF v=spf1
+  -all, no DNSSEC/CAA/DMARC, no HTTP host resolvable. No live website, API, or developer
+  surface exists to enrich.'
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
